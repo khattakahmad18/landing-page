@@ -73,3 +73,63 @@ span {
   background-color: rgb(246, 100, 28);
   padding:5px;
 }
+
+.book-section{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image: url("paper.gif");
+  flex-direction:column;
+  padding:10px;
+  font-family:inter;
+  margin-bottom:10px;
+  
+}
+.book-section > .text-book
+{
+  font-size:xx-large;
+  font-weight:bold;
+}
+
+
+.book-cards
+{
+  display:flex;
+  gap:10px;
+  
+  
+}
+.book-cards img
+{
+  width: 180px;
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px; /* one value */
+  background: #04AA6D;
+}
+.book-card
+{
+  
+  padding:15px;
+  margin:5px;
+  flex:1;
+  border-radius: 15px;
+  
+}
+.book-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.book-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
