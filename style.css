@@ -39,6 +39,7 @@ ul {
   color: white;
   flex-shrink:0;
   flex-wrap:wrap;
+  
 }
 .hero-banner {
   flex-grow: 0;
@@ -132,4 +133,29 @@ span {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+.quote-section
+{
+  border:1px solid red;
+  display:flex;
+  padding:20px;
+  margin:10px;
+  font-size:100px;
+  text-align:center;
+  background-color: rgb(246, 100, 28);
+  color:white;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+
+.footer-section
+{
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  font-size:60px;
+  text-align:center;
+  margin:30px;
+  
 }
